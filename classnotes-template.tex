@@ -1,0 +1,62 @@
+% !TeX document-id = {77664564-445f-48fb-8609-8a7b2df5e747}
+% !TeX TXS-program:compile = txs:///pdflatex/[--shell-escape]
+
+% ----------------------------------
+% -------- Author and title --------
+% ----------------------------------
+\title{Class notes template}
+\author{Borja Vega Mart\'in}
+\date{\today}
+
+% ----------------------------------
+% ------------ Class ---------------
+% ----------------------------------
+\documentclass[9pt, a4paper]{../myTemplates/notesR3NT0N}
+
+\usepackage{lipsum}
+
+% ----------------------------------
+% ----- Sections to include --------
+% ----------------------------------
+%\includeonly{install-miktex,conf-textstudio}
+
+\begin{document}
+\sloppy     % Evita que se corten las palabras y en su lugar justifica el texto
+
+%-1 	\part{part}
+% 0 	\chapter{chapter}
+% 1 	\section{section}
+% 2 	\subsection{subsection}
+% 3 	\subsubsection{subsubsection}
+% 4 	\paragraph{paragraph}
+% 5  	\subparagraph{subparagraph}
+
+%\maketitle             % Genera título
+%\tableofcontents{}     % Genera índice de contenidos
+
+
+%\input{chapter1}
+%\input{section1}
+\chapter{Note class template}
+\section{Lorem Ipsum}
+% Párrafos del 0 al 10 de Lorem Ipsum
+\lipsum[0-8]
+
+% ----------------------------------
+% --------- Bibliography -----------
+% ----------------------------------
+\section{Bibliography}
+\begin{itemize}
+   \item Book 1, \textit{author1}.
+   \item Book 2, \textit{author2}.
+\end{itemize}
+
+% Bibliografía usando BiBTeX
+%---------------------------
+% Los elementos que no se citan no aparecen en la lista de la bibliografía
+%\cite{einstein} \cite{knuthwebsite} \cite{latexcompanion}
+%\medskip
+%\bibliographystyle{unsrt}  % Elegir estilo de bibliografía
+%\bibliography{references}  % Nombre del fichero que contiene los elementos bibliográficos
+
+\end{document}
